@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2018, 6:41:38 PM
+    Author     : Zin Min Htun
+*/
+.button{
+    -fx-background-color: #123456;
+    -fx-text-fill: #ffffff;
+}
+.side-penal{
+   -fx-background-color: #123456;
+}
+.glyph-icon{
+    
+    -fx-fill: #ffffff;
+}
+.my-own-button{
+    -fx-background-color: #123456;
+}
+

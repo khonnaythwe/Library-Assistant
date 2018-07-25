@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.system.retrivingIssuedInfo.RetrivingIssuedInfoController">
+   <children>
+      <TableView fx:id="issueTable" prefHeight="450.0" prefWidth="750.0">
+         <columns>
+            <TableColumn fx:id="bookIdColumn" prefWidth="75.0" text="Book ID" />
+            <TableColumn fx:id="memberIdColumn" prefWidth="75.0" text="Member ID" />
+            <TableColumn fx:id="issuedDateColumn" prefWidth="75.0" text="Issued Date" />
+            <TableColumn fx:id="renewCountColumn" prefWidth="75.0" text="Renew Count" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
+   </padding>
+</AnchorPane>
