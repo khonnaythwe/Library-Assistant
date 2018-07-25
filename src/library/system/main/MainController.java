@@ -290,7 +290,7 @@ public class MainController implements Initializable {
                 bookDao.updateAvailable(book_id, false);
                 System.out.println("Done!");
             } else {
-                System.out.println("This book is already issued.");
+               ShowMessage.showAndWaitErrorMessage("Error", "Cann't find this book.");
             }
         } catch (SQLException ex) {
             Logger.getLogger(MainController.class.getName()).log(Level.SEVERE, null, ex);
